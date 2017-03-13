@@ -30,7 +30,7 @@ if(isset($_POST))
           Country: ".$country."\r
           Comments: ".$comments;"\r
       ";
-      mail ("mpisani@marsmineral.com, bhinkle@marsmineral.com, davelevy@levymgi.com", "Carbon Black Contact Form", $emailmessage, $headers);
+      mail ("bharasty@marsmineral.com, mpisani@marsmineral.com, bhinkle@marsmineral.com, davelevy@levymgi.com", "Carbon Black Contact Form", $emailmessage, $headers);
       mail ("ben@levymgi.com", "Carbon Black Contact Form", $emailmessage, $headers);
       echo "<h2>Thank you for your inquiry, we will contact you shortly.</h2>";
     }
